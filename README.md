@@ -1,22 +1,81 @@
 <h1 align="center">Web Development with Python, HTML and CSS</h1>
 
 <p align="center">
-  Aplicação web desenvolvida como parte do estudo prático de desenvolvimento backend e frontend.
+  Aplicação web desenvolvida como parte da formação em desenvolvimento web.
 </p>
 
 <hr>
 
-<h2>📌 Visão Geral</h2>
+<h2>
+  Instituição: 
+  <a href="https://oceanbrasil.com/atividades/4888-Programando-para-web-com-Python-CSS-e-HTML" title="Samsung Ocean e UEA (Universidade Estadual do Amazonas)">
+    Samsung Ocean e UEA (Universidade Estadual do Amazonas)
+  </a>
+</h2>
 
 <p>
-Este projeto documenta a construção de uma aplicação web utilizando <strong>Python</strong> com <strong>Flask</strong>, 
-integrando <strong>HTML</strong>, <strong>CSS</strong>, templates dinâmicos com <strong>Jinja2</strong> e persistência de dados com <strong>SQLite</strong>.
+Este projeto foi desenvolvido durante as aulas do programa oferecido pela Samsung Ocean em parceria com a UEA (Universidade Estadual do Amazonas), 
+com foco na construção prática de aplicações web utilizando Python.
+</p>
+
+<hr>
+
+<h2>📌 Visão Geral do Projeto</h2>
+
+<p>
+O projeto foi construído em etapas, acompanhando a evolução dos conteúdos apresentados nas aulas.
 </p>
 
 <p>
-O objetivo foi compreender, na prática, como estruturar uma aplicação web completa, 
-desde a camada de apresentação até a manipulação de dados no backend.
+O objetivo principal foi compreender como uma aplicação web funciona de ponta a ponta — 
+desde a estrutura de uma página HTML até a manipulação de dados em um banco de dados integrado ao backend.
 </p>
+
+<hr>
+
+<h2>📚 O que foi aprendido durante as aulas</h2>
+
+<h3>🧱 Fundamentos de HTML</h3>
+<ul>
+  <li>Estrutura básica de um documento HTML</li>
+  <li>Tags semânticas</li>
+  <li>Listas, tabelas e formulários</li>
+  <li>Organização e hierarquia de conteúdo</li>
+</ul>
+
+<h3>🎨 Estilização com CSS</h3>
+<ul>
+  <li>CSS inline, interno e externo</li>
+  <li>Box Model</li>
+  <li>Flexbox e Grid</li>
+  <li>Responsividade</li>
+  <li>Separação entre estrutura e estilo</li>
+</ul>
+
+<h3>🔥 Backend com Flask</h3>
+<ul>
+  <li>Criação de servidor web</li>
+  <li>Definição de rotas</li>
+  <li>Renderização de templates</li>
+  <li>Uso de variáveis de ambiente</li>
+  <li>Modo debug e organização do entrypoint</li>
+</ul>
+
+<h3>🧩 Templates Dinâmicos com Jinja2</h3>
+<ul>
+  <li>Injeção de variáveis no HTML</li>
+  <li>Condicionais</li>
+  <li>Loops</li>
+  <li>Separação entre lógica e apresentação</li>
+</ul>
+
+<h3>🗄 Persistência de Dados com SQLite</h3>
+<ul>
+  <li>Criação de banco de dados</li>
+  <li>Estruturação de tabelas via esquema.sql</li>
+  <li>Script de inicialização (init_db.py)</li>
+  <li>Manipulação e armazenamento de dados</li>
+</ul>
 
 <hr>
 
@@ -34,38 +93,27 @@ desde a camada de apresentação até a manipulação de dados no backend.
 
 <hr>
 
-<h2>⚙️ Funcionalidades Implementadas</h2>
+<h2>🏗 Estrutura da Aplicação</h2>
 
-<ul>
-  <li>Configuração de servidor Flask com variáveis de ambiente</li>
-  <li>Rotas dinâmicas</li>
-  <li>Renderização de templates com Jinja2</li>
-  <li>Separação entre lógica e apresentação</li>
-  <li>Persistência de dados com SQLite</li>
-  <li>Organização modular do projeto</li>
-  <li>Gerenciamento de dependências com requirements.txt</li>
-</ul>
-
-<hr>
-
-<h2>🗄 Banco de Dados</h2>
-
-<p>A aplicação utiliza SQLite para armazenamento de dados.</p>
-
-<p>Tabela principal:</p>
-
-<ul>
-  <li><strong>posts</strong></li>
-</ul>
-
-<p>Campos:</p>
-
-<ul>
-  <li>id (INTEGER - chave primária)</li>
-  <li>titulo (TEXT)</li>
-  <li>texto (TEXT)</li>
-  <li>data_criacao (DATETIME)</li>
-</ul>
+<pre>
+python-web-fev-2026/
+│
+├── app.py              # Aplicação principal Flask
+├── init_db.py          # Script de inicialização do banco
+├── esquema.sql         # Estrutura do banco de dados
+├── banco.db            # Banco SQLite
+├── requirements.txt    # Dependências do projeto
+├── .env                # Variáveis de ambiente
+│
+├── templates/          # Templates HTML (Jinja2)
+│   ├── index.html
+│   └── user.html
+│
+├── static/             # Arquivos estáticos
+│   └── styles.css
+│
+└── README.md
+</pre>
 
 <hr>
 
@@ -114,15 +162,16 @@ python app.py
 
 <hr>
 
-<h2>📚 Conceitos Aplicados</h2>
+<h2>📚 Resultados do Projeto</h2>
 
-<ul>
-  <li>Arquitetura básica de aplicações web</li>
-  <li>Separação de responsabilidades</li>
-  <li>Templates dinâmicos</li>
-  <li>Configuração via variáveis de ambiente</li>
-  <li>Organização e versionamento de projeto</li>
-</ul>
+<p>
+Ao final do desenvolvimento, a aplicação passou a integrar frontend e backend de forma estruturada, 
+com persistência de dados e organização modular.
+</p>
+
+<p>
+Este projeto consolidou minha base em desenvolvimento web, aplicando teoria e prática de forma integrada.
+</p>
 
 <hr>
 
@@ -130,5 +179,5 @@ python app.py
 
 <p>
 Eduarda Bomfim<br>
-Projeto desenvolvido para fins educacionais e consolidação de fundamentos em desenvolvimento web.
+Projeto desenvolvido para consolidação de fundamentos em desenvolvimento web.
 </p>
