@@ -32,6 +32,8 @@ desde a camada de apresentação até a manipulação de dados no backend.
   <li>Virtual Environment (venv)</li>
 </ul>
 
+<hr>
+
 <h2>⚙️ Funcionalidades Implementadas</h2>
 
 <ul>
