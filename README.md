@@ -32,32 +32,6 @@ desde a camada de apresentação até a manipulação de dados no backend.
   <li>Virtual Environment (venv)</li>
 </ul>
 
-<hr>
-
-<h2>🏗 Estrutura da Aplicação</h2>
-
-<pre>
-python-web-fev-2026/
-│
-├── app.py              # Aplicação principal Flask
-├── init_db.py          # Script de inicialização do banco
-├── esquema.sql         # Estrutura do banco de dados
-├── banco.db            # Banco SQLite
-├── requirements.txt    # Dependências do projeto
-├── .env                # Variáveis de ambiente
-│
-├── templates/          # Templates HTML (Jinja2)
-│   ├── index.html
-│   └── user.html
-│
-├── static/             # Arquivos estáticos
-│   └── styles.css
-│
-└── README.md
-</pre>
-
-<hr>
-
 <h2>⚙️ Funcionalidades Implementadas</h2>
 
 <ul>
